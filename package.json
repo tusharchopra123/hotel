@@ -1,18 +1,30 @@
 {
   "name": "hotel",
+  "homepage": "https://tusharchopra123.github.io/hotel",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
+    "axios": "^0.21.1",
+    "history": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-flip-move": "^3.0.4",
+    "react-google-maps": "^9.4.5",
+    "react-multi-carousel": "^2.6.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
+    "styled-components": "^5.2.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +46,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "gh-pages": "^3.1.0",
+    "postcss": "^8.2.6",
+    "react-animations": "^1.0.0",
+    "tailwindcss": "^2.0.3"
   }
 }
